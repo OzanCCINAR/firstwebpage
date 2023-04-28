@@ -1,0 +1,58 @@
+.container {
+    width: 1000px;
+    height: 181px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.image {
+    width: 351px;
+    margin: 0 auto;
+}
+.searchbox {
+    width: 99%;
+    height: 59px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.cards {
+    width: 1010px;
+    height: 185px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.card {
+    width: 32.2%; /* %10 değer düştüm!!!  daha sonra margin-right'dan dolayı %3 düştüm*/
+    float: left;
+    padding: 5%; /*padding'e atadığımız değerin 2 katı yüzde olarak width'den düşer %5'se %10 düşeriz eşitlenmesi için */
+    margin: 0 auto;
+    margin: 1px;
+    margin-left: 3px;
+    padding: 3px;
+    height: 125px;
+      
+}
+
+    
+.form {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.searchboxarea {
+    width:50%;
+}
+
+.bg-grey {
+    background-color: rgb(208, 206, 206);
+}
+.bg-yellow {
+    background-color:black;
+}
