@@ -9,6 +9,17 @@
     justify-content: right;
     
   }
+  .header1 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: left
+  }
   
   
   .headerli a {
@@ -18,6 +29,7 @@
     padding: 5px 5px;
     text-decoration: none;
     margin: 8px;
+    margin-top: 10px;
   }
   
   .headerli a:hover {
