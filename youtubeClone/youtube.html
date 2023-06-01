@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/youtube.css">
+</head>
+<body style="background-color: rgb(27, 27, 27);">
+    <!-- Navbar start -->
+    <nav class=" navbar-light sticky-top" style="height: 60px; background-color: rgb(27, 27, 27);">
+        <div class="container-fluid ">
+            <div class="d-flex justify-content-between text-white " style="margin-bottom: -18px;">
+                <!-- iki elementin ortasına konumlandırır. Mesela 1'i en sola 3'ü en sağa çekip 2'yi ortaya konumlandırır. -->
+                <div class="mt-3">
+                    <button style="background-color: rgb(27, 27, 27);" class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-stream"></i>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                      </ul>
+                    <span><img src="img/indir.png" style="width: 30px; height: 20px; border-radius: 7px;" alt=""></span>
+                    <a class="navbar-brand text-white" href="#">Youtube</a>
+                </div>
+                <div class="p-2 d-flex">
+                    <form class="rounded-pill" style="width: 550px;">
+                        <input type="search" placeholder="Ara" style="width: 550px;">
+                        <button class="ms-auto" style="background-color: rgb(73, 73, 73);" type="submit">Search</button>
+                      </form>
+                      <span><i class="fa-solid fa-microphone ms-2 rounded-circle p-2" style="margin-top: 5px; background-color: rgb(73, 73, 73);"></i></span>
+                </div>
+                <div class="d-flex p-2 ">
+                    <a class="nav-link" href="#"><i class=" text-light me-1"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-regular fa-bell text-light me-1"></i></a>
+                    <a href="#"><img src="img/workplace.jpg" class="rounded-circle me-2 ms-1 mt-1" style="width: 35px; height: 35px;" alt=""></a>
+                </div>
+                
+            </div>
+            <!-- scroll bar start -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <ul class="d-inline-flex ms-1">
+                            <li class=" liborder"><a href="#" >Tümü</a></li>
+                            <li class=" liborder "><a href="#">Müzik</a></li>
+                            <li class=" liborder "><a href="#">Oyun</a></li>
+                            <li class=" liborder "><a href="#">Canlı</a></li>
+                            <li class=" liborder"><a href="#">Mix'ler</a></li>
+                            <li class=" liborder"><a href="#">Komedi skeç gösterileri</a></li>
+                            <li class=" liborder"><a href="#">Çizgi Filmler</a></li>
+                            <li class=" liborder"><a href="#">Aksiyon-macera oyunları</a></li>
+                            <li class=" liborder"><a href="#">Doğa</a></li>
+                            <li class=" liborder"><a href="#">Futbol</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+            <!-- scroll bar end -->
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <div class="container-fluid mt-5 ">
+        <div class="row">
+            <!-- sidebar start -->
+            <div class="col-2 mt-2 " id="sidebar" style="background-color: rgb(27, 27, 27);">
+                <ul >
+                <li class="liside"><a href="#"><i class="fa-solid fa-home me-2 mt-2"></i>Ana Sayfa</a></li>
+                <li class="liside"><a href="#"><i class="fa-solid fa-video me-2 mt-2"></i>Shorts</a></li>
+                <li class="liside"><a href="#"><i class="fa-solid fa-stream me-2 mt-2"></i>Abonelikler</a></li>
+                </ul>
+                <hr class="bg-light">
+                <ul>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-play me-2 mt-1"></i>Kitaplık</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-history me-2 mt-2"></i>Geçmiş</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-video me-2 mt-2"></i>Videolarınız</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-clock me-2 mt-2"></i>Daha sonra izle</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-calendar me-2 mt-2"></i>Beğendiğim videolar</a></li>
+                </ul>
+                <hr class="bg-light">
+                <ul>
+                    <li class="liside"><h6 class="text-white">Abonelikler</h6></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Ryan Celsius</a></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Kurt Caz</a></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Tesla</a></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Yiğit Can İç</a></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Elraen</a></li>
+                    <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">Webtekno</a></li>
+                </ul>
+                <hr class="bg-light">
+                <ul>
+                    <h6 class="text-white">Keşfet</h6>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-fire me-2 mt-2"></i>Trendler</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-music me-2 mt-2"></i>Müzik</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-video me-2 mt-2"></i>Canlı</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-computer me-2 mt-2"></i>Oyun</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-basketball me-2 mt-2"></i>Spor</a></li>
+                </ul>
+                <hr class="bg-light">
+                <ul>
+                <li class="mb-3"><h6 class="text-white">Youtube'dan daha fazla içerik</h6></li>
+                <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">YouTube Premium</a></li>
+                <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">YouTube Studio</a></li>
+                <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">YouTube Music</a></li>
+                <li class="liside"><img src="img/indir.png" alt=""><a href="#" class="ms-4">YouTube Kids</a></li>
+                </ul>
+                <hr class="bg-light">
+                <ul>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-circle me-2 mt-2"></i>Ayarlar</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-flag me-2 mt-2"></i>İçerik bildirme geç...</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-question me-2 mt-2"></i>Yardım</a></li>
+                    <li class="liside"><a href="#"><i class="fa-solid fa-info me-2 mt-2"></i>Geri bildirim gönder</a></li>
+                </ul>
+                <hr class="bg-light">
+                <blockquote class="blockquote" style="font-size: 12px; color: rgb(165, 165, 165);">
+                    <p>
+                        HakkındaBasınTelif hakkıBize ulaşınİçerik ÜreticilerReklam vermeGeliştiriciler</p>
+                       <p>ŞartlarGizlilikPolitika ve GüvenlikYouTube Nasıl Çalışıyor?Yeni özellikleri deneyin
+                    </p>
+                    <br>
+                    <footer class="blockquote-footer">© 2023 Google LLC</footer>
+                </blockquote>
+            </div>
+            <!-- sidebar end -->
+
+            <!-- card area start -->
+            <div class="col-10 text-light mt-2" >
+                <div class="row mt-3">
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div style="width: 22rem; background-color: rgb(27, 27, 27);">
+                            <a href=""><img src="img/yoututubeDARK.jpg" class="card-img-top rounded-3" alt="..."></a>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-2">
+                                <span><img src="img/workplace.jpg" class="imgcard rounded-circle" alt=""></span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 style="font-size: 14px;">Gibi 4.Sezon tanıtım</h5>
+                                    </div>
+                                </div>
+                              <p class="card-text text-muted ms-5" style="font-size: 13px;">Gibi <br> 10,1 B görüntülenme . 7 saat önce</p>
+                            </div>
+                          </div>
+                    </div>
+                    
+            <!-- card area start -->
+        </div>
+      </div>
+
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
